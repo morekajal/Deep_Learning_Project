@@ -1,0 +1,49 @@
+1. Initialize Git : 
+- git init 
+- git remote -v
+- git remote add origin https://github.com/morekajal/Deep_Learning_Project.git
+- git branch
+- git pull origin main
+
+
+-----------------------
+2. Folder and File Structure
+
+- Xray
+    - cloud_storage
+        - __init__.py
+        - s3_operations.py
+    - components
+        - __init__.py
+        - data_ingestion.py
+        - data_transformation.py
+        - model_training.py
+        - model_evaluation.py 
+        - model_pusher.py
+    - entity
+        - __init__.py
+        - config_entity.py
+        - artifact_entity.py
+    - pipeline
+        - __init__.py
+        - training_pipeline.py
+
+    - __init__.py
+    - logger.py
+    - exception.py
+
+- requirements.txt
+- setup.py
+- .github folder for workflow related configuration
+    - workflows
+        - main.yaml
+        - ci.yaml
+
+- test folder
+    - integration_test
+        - __init__.py 
+    - unit_test
+        __init__.py 
+
+- bentofile.yaml
+
