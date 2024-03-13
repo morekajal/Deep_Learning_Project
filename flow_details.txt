@@ -64,3 +64,8 @@
 
 ------------------------------------
 4. create requirements
+    - pip install -r requirements_dev.txt
+
+******* OR ********
+
+- Update the setup.py to install requirements
