@@ -55,3 +55,12 @@
 - setup.config
 - requirements_dev.txt    # production requirements 
 - init_setup.sh           # shell script to automate the whole project 
+
+
+----------------------------------
+3. Create environment
+- conda create -p env python=3.8 -y
+- source activate ./env
+
+------------------------------------
+4. create requirements
