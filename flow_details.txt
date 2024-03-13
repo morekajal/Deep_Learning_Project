@@ -47,3 +47,11 @@
 
 - bentofile.yaml
 
+- experiment
+    - experiment.ipynb
+
+- tox.ini  -- test cases 
+
+- setup.config
+- requirements_dev.txt    # production requirements 
+- init_setup.sh           # shell script to automate the whole project 
